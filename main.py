@@ -68,6 +68,7 @@ def loop():
         "EURGBP=X",
         "BTC-USD",
         "ETH-USD",
+        "GC=F",
     ]
 
     while True:
