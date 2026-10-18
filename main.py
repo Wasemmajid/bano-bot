@@ -83,7 +83,7 @@ def loop():
 
                     key = pair
                     # كولداون 15 دقيقة لكل زوج
-                    if time.time() - last_times.get(key, 0) < 900:
+                    if time.time() - last_times.get(key, 0) < 300:
                         continue
 
                     signal = None
